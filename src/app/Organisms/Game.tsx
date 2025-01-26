@@ -4,7 +4,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import Dice from "../Atoms/Dice"
 import Board from "./../Molecules/Board"
-import { rollDice, sum, getAvailableMoves } from "../utils/gameutils"
+import { rollDice, sum } from "../utils/gameutils"
 
 const Game: React.FC = () => {
   const [boxes, setBoxes] = useState<boolean[]>(Array(9).fill(false))
