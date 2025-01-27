@@ -64,7 +64,6 @@ const Game: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen font-mono bg-red-200">
-      <h1 className="text-5xl font-bold mb-8 uppercase text-red-500">Shutterbox</h1>
       <div className="flex space-x-4 mb-8">
         <Dice value={dice[0]} />
         <Dice value={dice[1]} />
