@@ -63,7 +63,7 @@ const Game: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[95vh] font-mono bg-red-200">
+    <div className="flex flex-col items-center justify-center mt-8 font-mono bg-red-200">
       <div className="flex space-x-4 mb-8">
         <Dice value={dice[0]} />
         <Dice value={dice[1]} />
